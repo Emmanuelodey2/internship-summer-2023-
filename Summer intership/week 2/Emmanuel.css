@@ -18,7 +18,7 @@ background-color: aliceblue;
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background: linear-gradient(to right, rgb(157, 236, 247), rgba(245, 133, 239, 0.924));
+    background: linear-gradient(to right, rgb(245, 122, 122), rgba(243, 245, 133, 0.924),rgba(178, 245, 133, 0.924),rgba(133, 245, 239, 0.924),rgba(245, 133, 239, 0.924));
 
 }
 .anime {
