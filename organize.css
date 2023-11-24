@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Select Classes with the dot(.) */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.organize {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.organize h1 {
+    color: rgba(244, 160, 4, .7);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.organize p {
+    border: 1px solid rgba(244, 160, 4, .2);
+    padding: 40px 180px;
+    font-size: 30px;
+    background-color: rgba(244, 160, 4, .2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.form-row div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-row div input {
+    width: 350px;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.next input {
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+input {
+    border: 2px solid rgba(0, 0, 0, .2);
+    font-size: 25px;
+}
+
+input::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, .2);
+}

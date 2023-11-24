@@ -1,0 +1,42 @@
+        
+        *{
+            margin:0;
+            padding: 0;
+        }
+        div{
+
+            border-width: 2px;
+            border-style:solid;
+            border-color: black;
+            width: 300px;
+            text-align: center;
+            border-radius: 40px;
+            height: auto;
+            padding: 40px;
+            
+            background-color: rgb(255, 217, 47);
+
+        }
+        body {
+            height: auto;
+            display: flex;
+            justify-content: center;/* centers it horizontally*/
+            align-items: center;/* centers it vertically, but it only works when
+            height is known not auto*/
+            background-color: navajowhite;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+           
+
+
+        }
+        h1{
+            text-transform: lowercase;
+            font-weight: 500;
+
+        }
+        button{
+            border: 10px;
+            border-radius: 30px;
+            border-color: black;
+        }
+ 

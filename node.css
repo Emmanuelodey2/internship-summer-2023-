@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 200px;
+    height: 200vh;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+    border: 1px solid red;
+width: 200px;
+    height: 200vh;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.state{
+    border: 1px solid orange;
+    width: 200px;
+    height: 200vh;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

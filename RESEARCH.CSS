@@ -1,0 +1,60 @@
+/*CSS (Cascading Style Sheets) offers different display properties to control the layout of HTML elements. 
+The three primary display properties are block, grid, and flex.
+ Each of these options has unique characteristics and use cases for creating different layouts.
+ 
+
+1.) Block Display:
+The block display property is the default behavior of most HTML elements, like <div>, <p>, <h1> to <h6>,etc.
+Elements with block display take up the full available width of their parent container and stack vertically,
+pushing subsequent elements to the next line.
+
+Block-level elements are those that generate a block-level box in the CSS box model. 
+By default, they take up the entire available width of their parent container and stack vertically, 
+causing each element to start on a new line.
+
+Examples of block-level elements include <div>, <p>, <h1> to <h6>, <ul>, <ol>, <form>, and more.
+Block-level elements can have dimensions set using properties like width, height, margin, and padding.
+When you apply display: block to an inline element (e.g., <span>), it becomes a block-level element,
+ and you can then specify dimensions and apply block-level properties.
+ */
+
+
+/*Grid Display:
+The grid display property allows you to create complex two-dimensional layouts by defining rows and columns.
+It enables you to align and position elements with precision, making it suitable for creating 
+responsive designs. 
+The grid display property was introduced in CSS Grid Layout, which is a powerful two-dimensional
+ layout system.
+It allows you to create complex layouts by dividing the container into rows and columns and
+ then placing elements in specific grid cells.
+
+
+Flex Display:
+The flex display property allows you to create flexible layouts along a single axis 
+(either horizontal or vertical).
+It is well-suited for responsive design and aligning items within a container.
+
+
+
+Selectors in CSS:
+CSS Selectors allow you to target specific HTML elements to apply styles or behavior.
+Element Selectors target HTML elements by their name (e.g., h1, div, p) and apply styles to all 
+matching elements.
+Class Selectors target elements with a specific class attribute (e.g., .highlight) and are 
+denoted by a dot followed by the class name.
+ID Selectors target a single element with a unique ID attribute (e.g., #header) and are 
+denoted by a hash symbol followed by the ID name.
+Attribute Selectors target elements with specific attributes or attribute values (e.g., [type="submit"]).
+
+
+
+Classes vs. IDs:
+Classes allow you to apply the same styles to multiple elements without duplicating CSS rules.
+They promote reusability and maintainability, making it easier to change styles across multiple elements 
+by modifying a single class definition.
+IDs, on the other hand, are unique identifiers meant for targeting specific elements.
+They should only be used once per HTML document because multiple elements with the same ID will 
+lead to invalid HTML and unpredictable behavior.
+It is generally better to use classes for styling and IDs for JavaScript interactions or fragment
+ identifiers in URLs.
+*/

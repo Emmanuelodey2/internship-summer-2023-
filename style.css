@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    /* padding: 30px; */
+    color: black;
+    overflow-x: hidden;
+    background: linear-gradient(to right, #49A3BF, #401093);
+    
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.password-container h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: none;
+    font-weight: 600;
+
+}
+
+.password-container a{
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;;
+    background-color: rgba(243, 243, 243, 0.4) ;
+
+}
+
+.gradient{
+    border: 1px solid aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 15px;
+}
+.each-gradient{
+    display: flex;
+    flex-direction: column;
+}
+
+.each-gradient a{
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 5px 30px;
+    background: rgba(243, 243, 243, 0.4);
+}
+
+.gen-pad {
+    padding: 20px 50px;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgba(0, 0, 0, .8); */
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+    color: black;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    font:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    letter-spacing: 3px;
+    transition: all ease-in-out .5s;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: rgba(243, 243, 243, .5);
+}
+
+nav ul li a:after {
+    width: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15%;
+    background-color: #f3f3f3;
+    height: 3px;
+    transition: all .3s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav .btn {
+    margin-right: 100px;
+}
+
+.btn {
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
+    color: black;
+    transition: all ease-in-out .3s;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.btn:hover {
+    background: aquamarine;
+    border: 1px solid;
+    color: black;
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*background: linear-gradient(to right, rgba(43, 136, 207, 0.6), rgba(19, 72, 170, 0.6));*/
+  
+    color: #f3f3f3;
+}
+
+  
+  
+
+header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+header a {
+    color: black;
+}
+

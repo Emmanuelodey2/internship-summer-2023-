@@ -1,0 +1,56 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+<title> Order Details</title>
+<link rel="stylesheet" href="style.css">
+   
+    </head>
+   
+    <body>
+        <div class="centered-container" >
+        <h1> Order Details</h1>
+        <hr>
+
+        <form action="">
+            <label for="Name">Full Name:</label>
+            <input type="text" placeholder="Full Name" name="Name" ><br><br>
+
+             <label for="Street">Street/No:</label>
+    <input type="text" placeholder="Street" name="street"> <input type="number" name="street" placeholder="+234"><br><br> 
+    
+    <label for="zip">Zip-code/city:</label>
+    <input type="number" placeholder="Zip-code" name="zip"><input type="text" name="zip" placeholder="city"><br><br>
+
+    Country: <select name="country">
+        <option value="">Select a Country</option>
+        <option value="ng">Nigeria</option>
+        <option value="cn">Canada</option>
+        <option value="us">United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="au">Australia</option>
+        <option value="in">India</option>
+        <option value="jp">Japan</option>
+      </select><br><br>
+
+      <label for="purchase">Purchase Order:</label>
+      <input type="number" placeholder="Purchase number" name="purchase"
+      minlength="12"><br><br>     
+
+      <label for="valid">Valid Form:</label>
+      <input type="datetime-local"valid"><br><br>
+
+      <label for="net">Net Value:</label>
+      <input type="number" name="net"placeholder="EUR"><br><br>
+
+       <button type="submit">Submit</button>
+       <input type="reset" value="Clear">
+      
+
+
+       
+
+
+        </form>
+        </div>
+    </body>
+</html>

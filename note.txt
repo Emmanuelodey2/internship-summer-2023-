@@ -1,0 +1,116 @@
+What is Programming?
+
+A set of instructions given to a computer to carry out
+ 
+It is the act of communicating with the computer.
+
+Syntax are set of rules that should be followed to use a Programming language effectively
+
+C#
+
+Web Dev
+HTML, CSS, JavaScript
+
+IDE
+
+Integrated Development Environment
+
+HTML is an acronym for Hyper Text Markup Language
+HTML is a language used to render(Put) things on a webpage
+
+The basic Syntax for HTML file:
+
+    <a>           Adeyinka          </a>
+opening tag     text Node     Closing tag
+
+A tag.
+
+Commenting in Programming
+Commenting is the act of hiding pieces or parts of code from showing or being active. In other words, that part of the code is rendered inactive. It can also be used for documentation of code. 
+
+Commenting in HTML:
+<!--<h1>Hi there!</h1>-->
+
+Introduction to CSS
+CSS stands for Cascading Style Sheet
+It is used for styling the web page
+
+3 ways to add CSS to HTML
+1. Inline CSS
+2. Internal CSS
+3. External CSS
+
+Inline CSS
+The CSS is added directly to a line of html element using an attribute(style).
+The basic syntax of CSS is the property-value pair
+{property}: {value};
+  color   :  green;
+
+If the property name contains 2 words, they are seperated with an hyphen  
+
+Internal CSS
+Here, the css is added in one place in the html. It is always the last thing in the head section of the html structure. It is added using the style element.
+
+IN internal CSS, you identify elements on the html page as "selectors" and style them individually or together
+
+selector {
+    All CSS styling to be applied to specified selector
+}
+
+External CSS
+The CSS is a seperate file and it is linked to the html using the link tag.
+
+
+Order of priority in CSS styling
+IF you style the same element with inline CSS, internal CSS and External CSS, the inline would always take the highest priority over the other 2
+
+Colors in CSS
+The 3 ways to add colors are:
+1. Color name
+color: green;
+
+2. RGB value of color
+color: rgb(12, 45, 67);
+
+min is 0, max is 255
+
+#. Hex value of color
+Hexadecimal
+ 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+ 101 to base 10
+  2  1  0
+ 1  0  1  = 1 x 2^2 + 0 x 2^1 + 1 x 2^0 = 4 + 1 = 5
+        2                                          10
+
+        1  0
+        A B  = 10 x 16^1 + 11 x 16^0 = 160 + 11 = 171
+           16
+           1  0
+           F F = 15 x 16^1 + 15 x 16^0 = 240 + 15 = 255
+              16
+     R  G   B       
+   #00  00  00   
+   color: #00aaff
+
+   RGBA values
+   a stands for alpha value and it is the degree of transparency or opacity
+   It ranges from 0 to 1   
+   rgba(255, 0, 0, 0.4)      
+
+   Layouts
+   Display: flex; (Sub properties)
+   Display of flex would always target the parent element and structure the children/child within
+   -Gap
+   -justify
+   -align
+   -direction
+
+
+   viewport is the entire part of the screen that we can see per time
+   viewport height
+   viewport width
+
+   Classes
+   A class is a piece of reusable css code.
+   Classes are added to the html elements as attributes and selected in the CSS using the dot(.) notation

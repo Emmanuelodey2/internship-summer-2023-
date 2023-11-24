@@ -1,0 +1,24 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the whole body to take up the full viewport height */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .centered-container {
+    /* Optional: Add some padding and background color to make it visible */
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+      
+
+  
+ 
+  
