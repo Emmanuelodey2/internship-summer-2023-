@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+font-weight: 400; 
+margin-bottom: 30px;
+border-bottom: 2px, solid pink solid; 
+width: 300px;
+text-align: center;
+border-right: 2px, solid pink solid;
+box-shadow: 2px 2px 3px rgb(198, 68, 89);
+color:rgb(145, 33, 52);
+background-color: aliceblue;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background: linear-gradient(to right, rgb(245, 122, 122), rgba(243, 245, 133, 0.924),rgba(178, 245, 133, 0.924),rgba(133, 245, 239, 0.924),rgba(245, 133, 239, 0.924));
+
+}
+.anime {
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+     justify-content: center;
+     
+}
+
+.anime img{
+    width: 330px;
+    height: 350px;
+    transition: all .5s;
+}
+
+.animekkk img:hover {
+    transform: scale(1.05);
+}
+
+
+.furn {
+    display: flex;
+    gap:10px;
+    flex-wrap:wrap ;
+     justify-content: center;
+}
+
+.furn img{
+    width: 330px;
+    height: 350px;
+    transition: all .5s;
+}
+
+.furn img:hover {
+    transform: scale(1.05);
+}
+ 
+
+
+.art img :hover {
+    transform: scale(1.05); 
+
+}
+
+.fashion{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+     justify-content: center;
+}
+
+.fashion img{
+    width: 330px;
+    height: 350px;
+    transition: all .5s;
+}
+
+.fashion img:hover{
+    transform: scale(1.05);
+
+}
+

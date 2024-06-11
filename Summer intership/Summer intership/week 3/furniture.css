@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    /* padding: 30px; */
+    color: rgba(0, 0, 0, .8);
+    overflow-x: hidden;
+}
+
+.gen-pad {
+    padding: 20px 50px;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgba(0, 0, 0, .8); */
+    color: #f3f3f3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    width: 100%;
+}
+
+nav .logo {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, rgb(151, 25, 46), white, rgb(255, 21, 60));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    letter-spacing: 3px;
+    transition: all ease-in-out .5s;
+    position: relative;
+}
+
+nav ul li a:hover {
+    color: rgba(243, 243, 243, .5);
+}
+
+nav ul li a:after {
+    width: 0;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15%;
+    background-color: #f3f3f3;
+    height: 3px;
+    transition: all .3s;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+nav .btn {
+    margin-right: 100px;
+}
+
+.btn {
+    /* border: 1px solid white; */
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(229, 53, 82);
+    color: black;
+    transition: all ease-in-out .3s;
+}
+
+.btn:hover {
+    background: transparent;
+    border: 1px solid rgb(229, 53, 82);
+    color: white;
+}
+
+header {
+    display: flex;
+    gap: 50px;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('https://media.istockphoto.com/id/1308740147/photo/wood-tv-cabinet-interior-wall-mockup-in-modern-empty-room-minimal-design.webp?b=1&s=170667a&w=0&k=20&c=M-aRfrLSL0Ki3nHgXbk9GvdwRjZ9aQ9SsulWHScRS60=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #f3f3f3;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, rgb(151, 25, 46), white, rgb(255, 21, 60));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+header a {
+    color: black;
+}
+
+.section-1 {
+    background-color: rgba(0, 0, 0, .8);
+    color: #f3f3f3;
+}
+
+.section-3 {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.section-3 .first, .section-3 .third {
+    background-color: rgba(0, 0, 0, .6);
+    color: #f3f3f3;
+    padding: 5px;
+}

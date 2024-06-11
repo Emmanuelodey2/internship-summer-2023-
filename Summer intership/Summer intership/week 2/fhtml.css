@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section{
+    width: 80%;
+    height: 800px;
+    background-position: top;
+    margin: 0 auto;
+}
+form{
+    
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 400px;
+    margin:10px;
+    text-align: center;
+}
+
+.Sign{
+    font-size: 20px;
+}
+.link{
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: left;
+}
+b{
+    text-align: left;
+    color:blue;
+    font-size:large;
+    
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin:5px 0;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+input[type="button"]{
+ cursor: pointer;
+ width: 100%;
+ border-radius: 25px;
+    background-color: rgba(0, 140, 255, 0.938);
+}
+a{
+    text-align: center;
+justify-content: center;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 10px;
+    padding-left: -10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 90vh;
+    padding-top:20px ;
+    scroll-padding: 0;
+    background-color: aqua;
+}
+.panda{
+    border: 1px solid black;
+    width: 15cm;
+    height: 10cm;
+    position: absolute;
+    
+}
+.face{
+    position: absolute;
+
+    width:10em;
+    height:10em;
+    background-color: white;
+    border-radius: 50%;
+    top: 2em;
+    left: 14em;
+}
+.eye{
+    position: absolute;
+    width:0.5em;
+    height: 2em;
+    background-color: black;
+    border-radius: 50%;
+    top: 2.5em;
+}
+.eye-l{
+    
+    transform: rotate(30deg);
+    left: 2.3em;
+}
+.eye-r{
+    left: 7em;
+    transform: rotateY(-180deg)rotate(30deg);
+}
+.pupil{
+    position: absolute;
+    width:0.1cm;
+    height: 0.1cm;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 3.1em;
+}
+.pupil-r{
+    left: 7em;
+    transform: rotateY(-180deg)rotate(30deg);
+}
+.pupil-l{
+    left: 2.55em;
+    transform: rotate(30deg);
+}
+.nose{
+position: absolute;
+width: 0.5em;
+height: 0.5em;
+background-color: black;
+border-radius: 12.5em 1em 3em 0em ;
+transform: rotate(40deg);
+left: 4.7em;
+top: 5.5em;
+}
+.nose::before{
+    content: "";
+    position: absolute;
+    width: ;
+    height: ;
+    background-color: white;
+    border-radius: 12.5em 1em 3em 0;
+}

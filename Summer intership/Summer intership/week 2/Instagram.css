@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 70vh;
+    background-color: linear-gradient(90deg,red, pink, blue, 1);
+    
+}
+h2{
+    padding-bottom: 30px;
+    font-size: xx-large;
+    font-family: 'sans-serif';
+    background: linear-gradient(  pink,rgb(148, 1, 148));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.box{
+    
+    padding-bottom: 20px;
+   
+}
+hr{
+    width: 100%;
+   
+}
+input{
+    width: 300px;
+    padding: 4%;
+    border-radius: 10px;
+    border-style: none;
+    border: 0.5px solid black;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+    text-align: center;
+}
+section a{
+    text-decoration: none;
+    color: turquoise;
+}
+input[type = "button"]{
+    background: linear-gradient(rgb(2, 139, 173),rgb(168, 3, 127));
+    border-style:none;
+    border-radius: 10px;
+}

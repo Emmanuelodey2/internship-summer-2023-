@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding : 0;
+
+}
+body {
+    width: 100%;
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#number{
+    display:block;
+    padding-top: 30px;
+    text-align:center;
+    color: black;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.btn{
+    position:relative;
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+#increase-btn,#reset-btn,#decrease-btn{
+    width: 100px;
+    height: 50px;
+    background-color:aquamarine;
+    color: grey;
+    border-radius:10px;
+    border-color: white;
+    
+    
+
+}
+#increase-btn:hover,#reset-btn:hover,#decrease-btn:hover
+{
+    cursor:pointer;
+    box-shadow: 0px 0px 10px black;
+    transform:translateY(10px);
+}
+#change {
+    font-size: 50px;
+}

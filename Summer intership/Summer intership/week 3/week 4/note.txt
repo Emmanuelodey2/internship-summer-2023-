@@ -1,0 +1,21 @@
+What is Javascript?
+
+Javascript is a light-weight, cross-platform, Object-Oriented Programming language that can be used on the client side(Front-End) and also on the Server-side(Backend).
+
+Ways to add Javascript to your code
+1. Internal Javascript
+You use the script tag where everything between the opening tag and closing tag is Javascript. Note that it is always the last thing on the body.
+
+2. External Javascript
+Here, the jS file is an external file and it is linked to the html using the script tag and src attribute
+
+General Programming Concepts
+BASICS
+
+--Variables and Variables Declaration
+--DataTypes(Primitives)
+--Control Flow
+--Functions
+--Arrays
+--Objects
+--Loops

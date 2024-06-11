@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel ="stylesheet" href ="clock.css">
+    <link rel ="stylesheet" href ="timer.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href = "#">Home</a></li>
+            <li><a href = "#">Clock</a></li>
+            <li><a href = "#">stopwatch</a></li>
+            <li><a href = "#">Timer</a></li>
+        </ul>
+    </nav>
+   <div class = "cointaner container2">
+        <p id = "text"></p>
+        <p id = "display_time"></p>
+        <button type = "submit" onclick ="setInterval(timer,1000)"> Start Timer</button>
+   </div>
+   <script src = "timer.js"></script>
+</body>
+</html>
