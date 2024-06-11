@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.container{
+    border-radius: 5px;
+    border:1px solid black;
+    height: 20em;
+    max-width: 25em;
+    text-align: center;
+    padding-top: 20px;
+    text-align:center;
+}
